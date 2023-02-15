@@ -1,0 +1,199 @@
+SEQUENCE
+{
+    SEQUENCE
+    {
+        TAGGED [0]:
+            INTEGER=2
+        INTEGER=
+            7C C9 8F 2B 84 D7 DF EA   |É.+.×ßê
+            0F C9 65 9A D3 4B 4D 96   .Ée.ÓKM.
+        SEQUENCE
+        {
+            OBJECT IDENTIFIER=EcdsaWithSHA384 (1.2.840.10045.4.3.3)
+        }
+        SEQUENCE
+        {
+            SET
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=CountryName (2.5.4.6)
+                    PRINTABLE STRING='DE'
+                }
+            }
+            SET
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=OrganizationName (2.5.4.10)
+                    PRINTABLE STRING='D-Trust GmbH'
+                }
+            }
+            SET
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=CommonName (2.5.4.3)
+                    PRINTABLE STRING='D-TRUST BR Root CA 1 2020'
+                }
+            }
+        }
+        SEQUENCE
+        {
+            UTC TIME=11/feb./2020 05:45:00 VET (200211094500GMT+00:00)
+            UTC TIME=11/feb./2035 05:44:59 VET (350211094459GMT+00:00)
+        }
+        SEQUENCE
+        {
+            SET
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=CountryName (2.5.4.6)
+                    PRINTABLE STRING='DE'
+                }
+            }
+            SET
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=OrganizationName (2.5.4.10)
+                    PRINTABLE STRING='D-Trust GmbH'
+                }
+            }
+            SET
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=CommonName (2.5.4.3)
+                    PRINTABLE STRING='D-TRUST BR Root CA 1 2020'
+                }
+            }
+        }
+        SEQUENCE
+        {
+            SEQUENCE
+            {
+                OBJECT IDENTIFIER=EcPublicKey (1.2.840.10045.2.1)
+                OBJECT IDENTIFIER=Secp384r1 (1.3.132.0.34)
+            }
+            BIT STRING (L:97)=
+                04 C6 CB C7 28 D1 FB 84   .ÆËÇ(Ñû.
+                F5 9A EF 42 14 20 E1 43   õ.ïB. áC
+                6B 6E 75 AD FC 2B 03 84   knu­ü+..
+                D4 76 93 25 D7 59 3B 41   Ôv.%×Y;A
+                65 6B 1E E6 34 2A BB 74   ek.æ4*»t
+                F6 12 CE E8 6D E7 AB E4   ö.Îèmç«ä
+                3C 4E 3F 44 08 8B CD 16   <N?D..Í.
+                71 CB BF 92 99 F4 A4 D7   qË¿..ô¤×
+                3C 50 54 52 90 85 83 78   <PTR...x
+                94 67 67 A3 1C 09 19 3D   .gg£...=
+                75 34 85 DE ED 60 7D C7   u4.Þí`}Ç
+                0C B4 41 52 B9 6E E5 EE   .´AR¹nåî
+                42                        B
+        }
+        TAGGED [3]:
+            SEQUENCE
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=BasicConstraints (2.5.29.19)
+                    BOOLEAN=true
+                    OCTET STRING (L:5), encapsulates:
+                        SEQUENCE
+                        {
+                            BOOLEAN=true
+                        }
+
+                }
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=SubjectKeyIdentifier (2.5.29.14)
+                    OCTET STRING (L:22), encapsulates:
+                        OCTET STRING (L:20)=
+                            73 91 10 AB FF 55 B3 5A   s..«ÿU³Z
+                            7C 09 25 D5 B2 BA 08 A0   |.%Õ²º. 
+                            6B AB 1F 6D               k«.m
+
+                }
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=KeyUsage (2.5.29.15)
+                    BOOLEAN=true
+                    OCTET STRING (L:4), encapsulates:
+                        BIT STRING (L:1)=110
+
+                }
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=CRLDistributionPoints (2.5.29.31)
+                    OCTET STRING (L:190), encapsulates:
+                        SEQUENCE
+                        {
+                            SEQUENCE
+                            {
+                                TAGGED [0]:
+                                    TAGGED [0]:
+                                        TAGGED [6] IMPLICIT :
+                                            OCTET STRING (L:56)=
+                                                68 74 74 70 3A 2F 2F 63   http://c
+                                                72 6C 2E 64 2D 74 72 75   rl.d-tru
+                                                73 74 2E 6E 65 74 2F 63   st.net/c
+                                                72 6C 2F 64 2D 74 72 75   rl/d-tru
+                                                73 74 5F 62 72 5F 72 6F   st_br_ro
+                                                6F 74 5F 63 61 5F 31 5F   ot_ca_1_
+                                                32 30 32 30 2E 63 72 6C   2020.crl
+                            }
+                            SEQUENCE
+                            {
+                                TAGGED [0]:
+                                    TAGGED [0]:
+                                        TAGGED [6] IMPLICIT :
+                                            OCTET STRING (L:115)=
+                                                6C 64 61 70 3A 2F 2F 64   ldap://d
+                                                69 72 65 63 74 6F 72 79   irectory
+                                                2E 64 2D 74 72 75 73 74   .d-trust
+                                                2E 6E 65 74 2F 43 4E 3D   .net/CN=
+                                                44 2D 54 52 55 53 54 25   D-TRUST%
+                                                32 30 42 52 25 32 30 52   20BR%20R
+                                                6F 6F 74 25 32 30 43 41   oot%20CA
+                                                25 32 30 31 25 32 30 32   %201%202
+                                                30 32 30 2C 4F 3D 44 2D   020,O=D-
+                                                54 72 75 73 74 25 32 30   Trust%20
+                                                47 6D 62 48 2C 43 3D 44   GmbH,C=D
+                                                45 3F 63 65 72 74 69 66   E?certif
+                                                69 63 61 74 65 72 65 76   icaterev
+                                                6F 63 61 74 69 6F 6E 6C   ocationl
+                                                69 73 74                  ist
+                            }
+                        }
+
+                }
+            }
+    }
+    SEQUENCE
+    {
+        OBJECT IDENTIFIER=EcdsaWithSHA384 (1.2.840.10045.4.3.3)
+    }
+    BIT STRING (L:104), encapsulates:
+        SEQUENCE
+        {
+            INTEGER=
+                00 94 90 2D 13 FA E1 63   ...-.úác
+                F8 61 63 E8 AD 85 78 54   øacè­.xT
+                91 9C B8 93 38 3E 1A 41   ..¸.8>.A
+                DA 40 16 53 42 08 CA 2F   Ú@.SB.Ê/
+                8E F1 3E 81 56 C0 AA D8   .ñ>.VÀªØ
+                ED 18 C4 B0 AE F4 3E FA   í.Ä°®ô>ú
+                26                        &
+            INTEGER=
+                00 F3 28 E2 C6 DB 2B 99   .ó(âÆÛ+.
+                FB B7 51 B8 24 A3 A4 94   û·Q¸$£¤.
+                7A 1A 3F E6 36 E2 03 57   z.?æ6â.W
+                33 8A 30 CB 82 C7 D6 14   3.0Ë.ÇÖ.
+                11 D5 75 63 5B 14 95 9C   .Õuc[...
+                1F 01 CF D8 D5 72 A7 0F   ..ÏØÕr§.
+                3B                        ;
+        }
+
+}

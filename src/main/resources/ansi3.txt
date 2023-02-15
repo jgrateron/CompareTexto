@@ -1,0 +1,174 @@
+SEQUENCE
+{
+    SEQUENCE
+    {
+        TAGGED [0]:
+            INTEGER=2
+        INTEGER=1674247725 (0x63cafe2d)
+        SEQUENCE
+        {
+            OBJECT IDENTIFIER=Sha256WithRSAEncryption (1.2.840.113549.1.1.11)
+            NULL
+        }
+        SEQUENCE
+        {
+            SET
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=CommonName (2.5.4.3)
+                    UTF8 STRING='Fresco Root CA'
+                }
+            }
+        }
+        SEQUENCE
+        {
+            UTC TIME=20/ene./2023 16:48:45 VET (230120204845GMT+00:00)
+            UTC TIME=20/ene./2043 16:48:45 VET (430120204845GMT+00:00)
+        }
+        SEQUENCE
+        {
+            SET
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=CommonName (2.5.4.3)
+                    UTF8 STRING='Fresco Root CA'
+                }
+            }
+        }
+        SEQUENCE
+        {
+            SEQUENCE
+            {
+                OBJECT IDENTIFIER=RsaEncryption (1.2.840.113549.1.1.1)
+                NULL
+            }
+            BIT STRING (L:270), encapsulates:
+                SEQUENCE
+                {
+                    INTEGER=
+                        00 B8 78 CB 08 3F 0E 17   .¸xË.?..
+                        98 6A 25 F6 C5 11 6F 11   .j%öÅ.o.
+                        76 0C 20 67 8D 2E CA CE   v. g..ÊÎ
+                        5F EF 6D 8A 70 78 C0 BA   _ïm.pxÀº
+                        26 0B 66 B9 D0 77 28 ED   &.f¹Ðw(í
+                        3F 1F 0C C4 34 DF 76 9D   ?..Ä4ßv.
+                        93 63 C9 6D C8 09 BD 34   .cÉmÈ.½4
+                        33 AD 07 48 0F 48 54 B9   3­.H.HT¹
+                        35 CA B6 3C 5C 78 29 95   5Ê¶<\x).
+                        47 31 7E 7C EC 3F 7D 3A   G1~|ì?}:
+                        67 C8 96 D5 9A 76 0C C5   gÈ.Õ.v.Å
+                        F6 A4 DE A4 B8 68 1E 95   ö¤Þ¤¸h..
+                        18 CF 6B 89 57 31 6A 90   .Ïk.W1j.
+                        DD 1D 60 89 AF D1 6F 93   Ý.`.¯Ño.
+                        33 9B F0 60 07 85 AE B1   3.ð`..®±
+                        4F AA 97 C0 D2 7F 75 95   Oª.ÀÒ.u.
+                        83 14 D5 E4 81 B6 B5 8F   ..Õä.¶µ.
+                        42 82 24 19 B6 36 36 B7   B.$.¶66·
+                        DE D8 F0 83 25 E7 3F 6C   ÞØð.%ç?l
+                        B1 45 60 47 85 BB 44 92   ±E`G.»D.
+                        51 84 71 70 CB 3F 83 2F   Q.qpË?./
+                        84 44 0C 92 20 40 60 7F   .D.. @`.
+                        69 49 2E 14 AE D8 37 A4   iI..®Ø7¤
+                        CB EC 0F 86 76 61 94 B2   Ëì..va.²
+                        E1 82 16 BF 94 1E A0 5B   á..¿.. [
+                        A4 3C F5 F7 B3 98 F5 11   ¤<õ÷³.õ.
+                        36 7D C4 E2 4B D8 83 15   6}ÄâKØ..
+                        E5 1B 50 BA 91 C2 9D 92   å.Pº.Â..
+                        7A D8 B6 1F 2A 99 23 70   zØ¶.*.#p
+                        E8 DA 20 9D 55 FB F7 A1   èÚ .Uû÷¡
+                        E7 04 D3 70 93 A9 0D 53   ç.Óp.©.S
+                        64 92 37 D0 0F 9D 6E AD   d.7Ð..n­
+                        67                        g
+                    INTEGER=65537 (0x10001)
+                }
+
+        }
+        TAGGED [3]:
+            SEQUENCE
+            {
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=BasicConstraints (2.5.29.19)
+                    BOOLEAN=true
+                    OCTET STRING (L:5), encapsulates:
+                        SEQUENCE
+                        {
+                            BOOLEAN=true
+                        }
+
+                }
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=KeyUsage (2.5.29.15)
+                    BOOLEAN=true
+                    OCTET STRING (L:4), encapsulates:
+                        BIT STRING (L:1)=110
+
+                }
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=AuthorityKeyIdentifier (2.5.29.35)
+                    OCTET STRING (L:24), encapsulates:
+                        SEQUENCE
+                        {
+                            TAGGED [0] IMPLICIT :
+                                OCTET STRING (L:20)=
+                                    53 C8 05 12 E8 C8 4A 87   SÈ..èÈJ.
+                                    5B F0 95 8A 00 4D FD D1   [ð...MýÑ
+                                    54 1C D4 31               T.Ô1
+                        }
+
+                }
+                SEQUENCE
+                {
+                    OBJECT IDENTIFIER=SubjectKeyIdentifier (2.5.29.14)
+                    OCTET STRING (L:22), encapsulates:
+                        OCTET STRING (L:20)=
+                            53 C8 05 12 E8 C8 4A 87   SÈ..èÈJ.
+                            5B F0 95 8A 00 4D FD D1   [ð...MýÑ
+                            54 1C D4 31               T.Ô1
+
+                }
+            }
+    }
+    SEQUENCE
+    {
+        OBJECT IDENTIFIER=Sha256WithRSAEncryption (1.2.840.113549.1.1.11)
+        NULL
+    }
+    BIT STRING (L:256)=
+        77 C2 8A 17 E3 B9 95 B1   wÂ..ã¹.±
+        E3 9E 0D 94 C0 71 F5 71   ã...Àqõq
+        E8 2E FD FD A9 2D D1 C5   è.ýý©-ÑÅ
+        04 9F 9C 4F 78 2A C1 F3   ...Ox*Áó
+        D2 C0 D8 DF 73 AF 21 72   ÒÀØßs¯!r
+        82 2B 44 31 AE 3C 3E 17   .+D1®<>.
+        B3 CA E8 5F 51 5E 56 3F   ³Êè_Q^V?
+        37 A8 76 C2 C3 DE 7B EE   7¨vÂÃÞ{î
+        BB F1 45 FE 1E 75 79 CF   »ñEþ.uyÏ
+        AE 87 AC 54 81 51 CE C1   ®.¬T.QÎÁ
+        82 24 8A A9 AA D2 C1 56   .$.©ªÒÁV
+        DD AB 0A 3C BA 2A 5C 5C   Ý«.<º*\\
+        7C FB DF A8 9F CC 70 7D   |ûß¨.Ìp}
+        A8 25 6B 16 85 7F D7 5C   ¨%k...×\
+        48 8C 0E 21 53 A9 95 9C   H..!S©..
+        26 53 95 86 37 6F 60 2D   &S..7o`-
+        9F E9 77 A9 46 70 9E B5   .éw©Fp.µ
+        47 CB 90 63 6E 4D C5 A8   GË.cnMÅ¨
+        C8 C7 75 03 6C E7 CD 65   ÈÇu.lçÍe
+        5B 3C 2A F6 42 E6 6C E4   [<*öBælä
+        9A 58 81 2B 61 8D 38 4C   .X.+a.8L
+        C4 A7 35 A9 F6 86 83 4C   Ä§5©ö..L
+        6B 51 C6 57 7B 1E C1 81   kQÆW{.Á.
+        0F D8 8E 19 EE E8 22 74   .Ø..îè"t
+        92 D1 0F 2A 49 38 2A 03   .Ñ.*I8*.
+        C7 32 87 3C 3E 9B 4E 6F   Ç2.<>.No
+        76 11 F7 62 5D 58 A8 BA   v.÷b]X¨º
+        B9 D6 67 CE E6 15 16 CB   ¹ÖgÎæ..Ë
+        19 75 62 43 F7 86 02 4F   .ubC÷..O
+        9F EC 1A 1F 39 96 4D 65   .ì..9.Me
+        A5 1A 21 1F CB E9 DE 35   ¥.!.ËéÞ5
+        CE 7A DD B4 1F 75 89 9B   ÎzÝ´.u..
+}
